@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: aspnetapp-deployment  # Name of deployment
 spec:
-  replicas: 5
+  replicas: 4
   selector:
     matchLabels:
       app: aspnetapp   # Select Pods that match these labels
