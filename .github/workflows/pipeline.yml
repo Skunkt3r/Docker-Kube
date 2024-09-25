@@ -22,7 +22,7 @@ jobs:
           url: http://localhost:8200  # Replace with your Vault URL if different
           method: approle
           roleId: 2287f920-b682-6beb-1af0-19ebc753b46d  # Your Vault Role ID
-          secretId: b94ac44-07c6-f479-727f-7efab5a9185e  # Your Vault Secret ID
+          secretId: 2ae19a83-d2d1-bdaf-95fc-ef24ff3532a4  # Your Vault Secret ID
           secrets: |
             secret/data/docker-credentials docker-username | DOCKER_USERNAME ;
             secret/data/docker-credentials docker-password | DOCKER_PASSWORD
